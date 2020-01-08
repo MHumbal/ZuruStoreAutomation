@@ -119,7 +119,7 @@ public class AllProjPage extends BasePage{
 		ArrayList<String> ar = new ArrayList<String>();
 		List<WebElement> l = driver.findElements(AllProject_List);
 		for(int i=1;i<=l.size();i++) {
-			By type = By.xpath("//*[@id=\"wrapper\"]/div/div[2]/div/div[2]/div[2]/div[1]/div[" + i + "]/div/div[4]/div[1]/span[2]");
+			By type = By.xpath("//*[@id=\"wrapper\"]/div/div/div/div[2]/div[2]/div/div["+ i +"]/div/div[4]/div[1]/span[2]");
 			ar.add(doGetText(type));
 		}
 		return ar;

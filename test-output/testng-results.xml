@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41847" started-at="2019-12-26T05:55:57Z" finished-at="2019-12-26T05:56:39Z">
+  <suite name="Default suite" duration-ms="44224" started-at="2020-01-08T04:59:09Z" finished-at="2020-01-08T04:59:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41847" started-at="2019-12-26T05:55:57Z" finished-at="2019-12-26T05:56:39Z">
-      <class name="com.qa.tests.SearchPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SearchPageTest@6bdf28bb]" name="setUp" is-config="true" duration-ms="22402" started-at="2019-12-26T11:25:57Z" finished-at="2019-12-26T11:26:19Z">
+    <test name="Default test" duration-ms="44224" started-at="2020-01-08T04:59:09Z" finished-at="2020-01-08T04:59:53Z">
+      <class name="com.qa.tests.FilterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FilterTest@6bdf28bb]" name="setUp" is-config="true" duration-ms="23868" started-at="2020-01-08T10:29:09Z" finished-at="2020-01-08T10:29:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SearchProjList()[pri:0, instance:com.qa.tests.SearchPageTest@6bdf28bb]" name="SearchProjList" duration-ms="18805" started-at="2019-12-26T11:26:19Z" finished-at="2019-12-26T11:26:38Z">
+        <test-method status="PASS" signature="TopologyFilterTest()[pri:0, instance:com.qa.tests.FilterTest@6bdf28bb]" name="TopologyFilterTest" duration-ms="19719" started-at="2020-01-08T10:29:33Z" finished-at="2020-01-08T10:29:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchProjList -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SearchPageTest@6bdf28bb]" name="tearDown" is-config="true" duration-ms="621" started-at="2019-12-26T11:26:38Z" finished-at="2019-12-26T11:26:39Z">
+        </test-method> <!-- TopologyFilterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FilterTest@6bdf28bb]" name="tearDown" is-config="true" duration-ms="627" started-at="2020-01-08T10:29:53Z" finished-at="2020-01-08T10:29:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.SearchPageTest -->
+      </class> <!-- com.qa.tests.FilterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
